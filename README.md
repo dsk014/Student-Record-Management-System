@@ -14,7 +14,7 @@ continuously without restarting the program.
 => Simple and user-friendly interface
 
 # How to Run
-1- Make sure you have Java installed on your computer\ 
+1- Make sure you have Java installed on your computer\
 2- Save the code in a file called 'StudentRecordManagementSystem.java' inside a folder called 'src'\
 3- Open your terminal or command prompt\
 4- Navigate to the folder where you saved the file\
