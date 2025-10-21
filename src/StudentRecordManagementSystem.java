@@ -132,7 +132,10 @@ class Student {
 
     // Constructor for student class
     public Student( String name, double marks) {
+
+        //Auto generate student id
         this.id = idCounter++;
+
         this.name = name;
         this.marks = marks;
 

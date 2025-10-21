@@ -6,7 +6,7 @@ continuously without restarting the program.
 
 # Features
 
-=> Add new student records \
+=> Add new student records [ ID Auto Generated]\
 => View all students \
 => Update student information\
 => Delete a student by ID\
