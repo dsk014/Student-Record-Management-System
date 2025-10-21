@@ -57,15 +57,13 @@ public class StudentRecordManagementSystem {
     // Method to add a new student
     private static void addStudent() {
 
-        System.out.println("Enter student ID: ");
-        int id = sc.nextInt();
         sc.nextLine();
         System.out.println("Enter student name: ");
         String name = sc.nextLine();
         System.out.println("Enter student marks: ");
         double marks = sc.nextDouble();
 
-        students.add(new Student(id, name, marks));
+        students.add(new Student( name, marks));
         System.out.println("Student added successfully!");
     }
 
@@ -126,14 +124,15 @@ public class StudentRecordManagementSystem {
 // Student class
 class Student {
 
+    private static int idCounter= 1;
     private int id;
     private String name;
     private double marks;
 
 
     // Constructor for student class
-    public Student(int id, String name, double marks) {
-        this.id = id;
+    public Student( String name, double marks) {
+        this.id = idCounter++;
         this.name = name;
         this.marks = marks;
 
@@ -145,9 +144,7 @@ class Student {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+
 
     public String getName() {
         return name;

@@ -44,3 +44,6 @@ target/
 
 # OS files
 Thumbs.db
+
+# Ignore production build/output folder
+build/
